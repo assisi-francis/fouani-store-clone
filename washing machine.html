@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colors by Fouani - Washing Machines (Responsive View)</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+    
+        .ribbon {
+            position: absolute;
+            top: 14px;
+            left: -22px;
+            transform: rotate(-45deg);
+            background-color: #EF4444;
+            color: white;
+            font-size: 7px;
+            font-weight: 800;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            width: 80px;
+            text-align: center;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+            z-index: 10;
+        }
+        
+        
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 min-h-screen flex flex-col pb-20 md:pb-6">
+
+    <header class="bg-white border-b border-gray-100 sticky top-0 z-50 px-4 py-3 md:px-6 lg:px-8 shadow-sm">
+        <div class="max-w-7xl mx-auto flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+            
+            <div class="flex items-center justify-between w-full md:w-auto">
+                <div class="flex items-center gap-3 sm:gap-4">
+                    <button class="text-gray-700 hover:text-black focus:outline-none p-1">
+                        <i class="fa-solid fa-bars text-lg sm:text-xl"></i>
+                    </button>
+                    <div class="flex flex-col items-center">
+                        <span class="text-lg sm:text-xl font-bold tracking-widest text-black flex items-center gap-1">
+                            C<span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-red-500 to-yellow-500">O</span>LORS
+                        </span>
+                        <span class="text-[8px] sm:text-[9px] uppercase tracking-[0.2em] text-gray-400 font-medium -mt-1">By Fouani</span>
+                    </div>
+                </div>
+                
+                <div class="flex items-center gap-4 sm:gap-6">
+                    <div class="relative cursor-pointer flex items-center gap-1 text-xs sm:text-sm font-medium text-gray-700 hover:text-black">
+                        <i class="fa-solid fa-store text-base sm:text-lg"></i>
+                        <span class="hidden md:inline">English</span>
+                        <i class="fa-solid fa-chevron-down text-[10px] ml-1"></i>
+                    </div>
+                    
+                    <div class="hidden md:flex items-center gap-4 lg:gap-5 text-gray-700">
+                        <i class="fa-regular fa-user text-lg lg:text-xl cursor-pointer hover:text-black transition-colors"></i>
+                        <div class="relative cursor-pointer hover:text-black transition-colors">
+                            <i class="fa-solid fa-cart-shopping text-lg lg:text-xl"></i>
+                            <span class="absolute -top-2 -right-2 bg-black text-white text-[10px] w-4 h-4 rounded-full flex items-center justify-center font-bold">0</span>
+                        </div>
+                        <i class="fa-regular fa-bell text-lg lg:text-xl cursor-pointer hover:text-black transition-colors"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w-full md:max-w-md lg:max-w-xl md:mx-auto relative">
+                <span class="absolute inset-y-0 left-0 flex items-center pl-4 pointer-events-none text-gray-400">
+                    <i class="fa-solid fa-magnifying-glass text-sm"></i>
+                </span>
+                <input type="text" placeholder="Search for products" value="Washing Machines"
+                       class="w-full bg-[#F3F4F6] text-sm text-gray-600 pl-10 pr-4 py-2.5 rounded-full border border-transparent focus:outline-none focus:bg-white focus:border-blue-500 focus:ring-2 focus:ring-blue-100 transition-all">
+            </div>
+
+        </div>
+    </header>
+
+    <main class="max-w-7xl w-full mx-auto p-4 md:p-6 lg:p-8 flex-grow">
+        
+        <div class="flex items-center justify-between mb-5 sm:mb-6">
+            <h1 class="text-base sm:text-lg md:text-2xl font-bold text-gray-900 flex items-center gap-2">
+                Washing Machines 
+                <span class="text-xs font-normal text-gray-500">(6)</span>
+            </h1>
+            <button class="flex items-center gap-2 text-[11px] sm:text-xs font-medium text-gray-700 hover:text-black border border-gray-200 px-3 py-1.5 rounded-md md:border-none md:p-0 transition-colors bg-white md:bg-transparent shadow-sm md:shadow-none">
+                <i class="fa-solid fa-sliders text-[10px]"></i>
+                Filters
+            </button>
+        </div>
+
+        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3 sm:gap-4 lg:gap-5">
+            
+            <div class="bg-white flex flex-col justify-between relative overflow-hidden group">
+                <div class="bg-[#76b33c] aspect-square rounded-sm relative flex items-center justify-center p-1.5 sm:p-2 overflow-hidden">
+                    <div class="p-1 shadow flex flex-col justify-between bg-white rounded-sm w-full h-full">
+                        <img src="https://salva.ams3.cdn.digitaloceanspaces.com/production/tenants/fouani/picture/b/b3a51c43-32b7-49c9-8d35-6ddd3ee02923/thumb.webp?_dc=1758118724" alt="LG 8KG Washer" class="object-contain w-full h-full transform group-hover:scale-105 transition-transform duration-300">
+                    </div>
+                </div>
+                <div class="pt-2 pb-1 flex flex-col flex-grow justify-between">
+                    <div>
+                        <h3 class="text-[11px] sm:text-xs md:text-sm font-normal text-gray-700 leading-snug line-clamp-2 min-h-[2rem] sm:min-h-[2.5rem]">
+                            LG 8KG Front Load Automatic Washer with AI Direct Drive Deep Learning Motor
+                        </h3>
+                        <p class="text-[11px] sm:text-xs md:text-sm font-bold text-gray-900 mt-1">NGN 360,800</p>
+                    </div>
+                    <button class="w-full mt-2.5 sm:mt-3 border border-gray-300 text-gray-700 text-[11px] sm:text-xs py-1.5 rounded-full bg-white font-medium hover:bg-gray-50 hover:border-gray-400 transition-colors">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="bg-white flex flex-col justify-between relative overflow-hidden group">
+                <div class="bg-[#76b33c] aspect-square rounded-sm relative flex items-center justify-center p-1.5 sm:p-2 overflow-hidden">
+                    <div class="p-1 shadow flex flex-col justify-between bg-white rounded-sm w-full h-full">
+                        <img src="https://salva.ams3.cdn.digitaloceanspaces.com/production/tenants/fouani/picture/7/7445137a-8567-4937-baaf-01a9234de8e7/thumb.webp?_dc=1758118724" alt="Hisense 10KG Washer" class="object-contain w-full h-full transform group-hover:scale-105 transition-transform duration-300">
+                    </div>
+                </div>
+                <div class="pt-2 pb-1 flex flex-col flex-grow justify-between">
+                    <div>
+                        <h3 class="text-[11px] sm:text-xs md:text-sm font-normal text-gray-700 leading-snug line-clamp-2 min-h-[2rem] sm:min-h-[2.5rem]">
+                            Hisense 10KG Smart Top Load Washing Machine with HydroSonic Wave Pulsator
+                        </h3>
+                        <p class="text-[11px] sm:text-xs md:text-sm font-bold text-gray-900 mt-1">NGN 285,000</p>
+                    </div>
+                    <button class="w-full mt-2.5 sm:mt-3 border border-gray-300 text-gray-700 text-[11px] sm:text-xs py-1.5 rounded-full bg-white font-medium hover:bg-gray-50 hover:border-gray-400 transition-colors">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="bg-white flex flex-col justify-between relative overflow-hidden group">
+                <div class="bg-[#76b33c] aspect-square rounded-sm relative flex items-center justify-center p-1.5 sm:p-2 overflow-hidden">
+                    <div class="p-1 shadow flex flex-col justify-between bg-white rounded-sm w-full h-full">
+                        <img src="https://salva.ams3.cdn.digitaloceanspaces.com/production/tenants/fouani/picture/b/b30f839f-515b-42f9-a03f-3e412de374ee/thumb.webp?_dc=1758118724" alt="LG Vivace Combo" class="object-contain w-full h-full transform group-hover:scale-105 transition-transform duration-300">
+                    </div>
+                </div>
+                <div class="pt-2 pb-1 flex flex-col flex-grow justify-between">
+                    <div>
+                        <h3 class="text-[11px] sm:text-xs md:text-sm font-normal text-gray-700 leading-snug line-clamp-2 min-h-[2rem] sm:min-h-[2.5rem]">
+                            LG Vivace 10.5KG Intelligent Front Loader & 7KG Dry Turbo Combo Station
+                        </h3>
+                        <p class="text-[11px] sm:text-xs md:text-sm font-bold text-gray-900 mt-1">NGN 789,000</p>
+                    </div>
+                    <button class="w-full mt-2.5 sm:mt-3 border border-gray-300 text-gray-700 text-[11px] sm:text-xs py-1.5 rounded-full bg-white font-medium hover:bg-gray-50 hover:border-gray-400 transition-colors">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="bg-white flex flex-col justify-between relative overflow-hidden group">
+                <div class="bg-[#76b33c] aspect-square rounded-sm relative flex items-center justify-center p-1.5 sm:p-2 overflow-hidden">
+                    <div class="p-1 shadow flex flex-col justify-between bg-white rounded-sm w-full h-full">
+                        <img src="https://salva.ams3.cdn.digitaloceanspaces.com/production/tenants/fouani/picture/8/87bbd014-6426-4d5c-8ae7-d81f1b1fb449/thumb.webp?_dc=1758118724" alt="MAXI 7.5KG Washer" class="object-contain w-full h-full transform group-hover:scale-105 transition-transform duration-300">
+                    </div>
+                </div>
+                <div class="pt-2 pb-1 flex flex-col flex-grow justify-between">
+                    <div>
+                        <h3 class="text-[11px] sm:text-xs md:text-sm font-normal text-gray-700 leading-snug line-clamp-2 min-h-[2rem] sm:min-h-[2.5rem]">
+                           LG Top Load Twin Tub 15KG
+                        </h3>
+                        <p class="text-[11px] sm:text-xs md:text-sm font-bold text-gray-900 mt-1">NGN 375,000</p>
+                    </div>
+                    <button class="w-full mt-2.5 sm:mt-3 border border-gray-300 text-gray-700 text-[11px] sm:text-xs py-1.5 rounded-full bg-white font-medium hover:bg-gray-50 hover:border-gray-400 transition-colors">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="bg-white flex flex-col justify-between relative overflow-hidden group">
+                <div class="bg-[#76b33c] aspect-square rounded-sm relative flex items-center justify-center p-1.5 sm:p-2 overflow-hidden">
+                    <div class="p-1 shadow flex flex-col justify-between bg-white rounded-sm w-full h-full">
+                        <img src="https://salva.ams3.cdn.digitaloceanspaces.com/production/tenants/fouani/picture/c/cb9617ab-77cd-4102-9a61-93b5a25d2ead/thumb.webp?_dc=1779782222" alt="Hisense 8KG Washer" class="object-contain w-full h-full transform group-hover:scale-105 transition-transform duration-300">
+                    </div>
+                </div>
+                <div class="pt-2 pb-1 flex flex-col flex-grow justify-between">
+                    <div>
+                        <h3 class="text-[11px] sm:text-xs md:text-sm font-normal text-gray-700 leading-snug line-clamp-2 min-h-[2rem] sm:min-h-[2.5rem]">
+                            Hisense 8KG PureJet Front Load Washing Machine with Inverter Motor Engineering
+                        </h3>
+                        <p class="text-[11px] sm:text-xs md:text-sm font-bold text-gray-900 mt-1">NGN 315,000</p>
+                    </div>
+                    <button class="w-full mt-2.5 sm:mt-3 border border-gray-300 text-gray-700 text-[11px] sm:text-xs py-1.5 rounded-full bg-white font-medium hover:bg-gray-50 hover:border-gray-400 transition-colors">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="bg-white flex flex-col justify-between relative overflow-hidden">
+                <div class="bg-[#76b33c] aspect-square rounded-sm relative flex items-center justify-center p-1.5 sm:p-2 overflow-hidden opacity-60">
+                    <div class="ribbon">Out of stock</div>
+                    <div class="p-1 shadow flex flex-col justify-between bg-white rounded-sm w-full h-full">
+                        <img src="https://salva.ams3.cdn.digitaloceanspaces.com/production/tenants/fouani/picture/9/9c59050e-7d1d-433a-af4d-837b2315c779/thumb.webp?_dc=1758118724" alt="MAXI 14KG Washer" class="object-contain w-full h-full">
+                    </div>
+                </div>
+                <div class="pt-2 pb-1 flex flex-col flex-grow justify-between opacity-60">
+                    <div>
+                        <h3 class="text-[11px] sm:text-xs md:text-sm font-normal text-gray-700 leading-snug line-clamp-2 min-h-[2rem] sm:min-h-[2.5rem]">
+                            Hisense Top Load 14KG
+                        </h3>
+                        <p class="text-[11px] sm:text-xs md:text-sm font-bold text-gray-900 mt-1">NGN 420,000</p>
+                    </div>
+                    <button disabled class="w-full mt-2.5 sm:mt-3 border border-gray-200 text-gray-400 text-[11px] sm:text-xs py-1.5 rounded-full bg-gray-50 font-medium cursor-not-allowed">Add to Cart</button>
+                </div>
+            </div>
+
+        </div>
+            
+        <div class="flex items-center justify-center gap-1.5 sm:gap-2 mt-10 mb-6 text-xs font-medium">
+            <button class="w-7 h-7 sm:w-8 sm:h-8 bg-black border border-gray-300 text-white rounded flex items-center justify-center hover:border-black transition-colors">1</button>
+            <button class="w-7 h-7 sm:w-8 sm:h-8 border border-gray-300 text-black rounded flex items-center justify-center hover:border-black transition-colors"></button>
+            <button class="w-7 h-7 sm:w-8 sm:h-8 border border-gray-300 text-black rounded flex items-center justify-center hover:border-black transition-colors"></button>
+            <a href="washing-machines2.html"> 
+                <button class="w-7 h-7 sm:w-8 sm:h-8 bg-white text-black border border-gray-300 rounded flex items-center justify-center hover:border-black hover:bg-gray-50 transition-colors">2</button>
+            </a>
+            <a href="washing-machines2.html">
+                <button class="w-7 h-7 sm:w-8 sm:h-8 flex items-center justify-center text-gray-400 hover:text-black transition-colors">
+                    <i class="fa-solid fa-chevron-right text-[10px] sm:text-xs"></i>
+                </button>
+            </a>
+        </div>
+    </main>
+
+    <nav class="md:hidden fixed bottom-0 left-0 right-0 bg-white border-t border-gray-200 py-3 px-8 flex items-center justify-between z-50 shadow-[0_-4px_6px_-1px_rgba(0,0,0,0.05)]">
+        <button class="text-gray-800 focus:outline-none hover:text-black transition-colors"><i class="fa-solid fa-house text-xl"></i></button>
+        <button class="text-gray-400 focus:outline-none hover:text-black transition-colors"><i class="fa-solid fa-location-dot text-xl"></i></button>
+        <button class="text-gray-400 focus:outline-none hover:text-black transition-colors"><i class="fa-regular fa-user text-xl"></i></button>
+        <button class="text-gray-400 focus:outline-none relative hover:text-black transition-colors">
+            <i class="fa-solid fa-cart-shopping text-xl"></i>
+            <span class="absolute -top-1.5 -right-2 bg-black text-white text-[9px] w-4 h-4 rounded-full flex items-center justify-center font-bold shadow-sm">0</span>
+        </button>
+        <button class="text-gray-400 focus:outline-none hover:text-black transition-colors"><i class="fa-regular fa-bell text-xl"></i></button>
+    </nav>
+
+</body>
+</html>
