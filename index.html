@@ -1,0 +1,1057 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COLORS by Fouani - Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header & Navbar -->
+    <header class="header">
+        <div class="container">
+            <div class="top-bar">
+                <div class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <a href="#" class="logo">
+                    <img src="./img/icon/fouani.png" alt="Colors by Fouani" onerror="this.outerHTML='<h1>COLORS <span>by Fouani</span></h1>'">
+                </a>
+                
+                <div class="search-container">
+                    <i class="fas fa-search search-icon"></i>
+                    <input type="text" class="search-bar" placeholder="Search for products">
+                </div>
+
+                <div class="nav-actions">
+                    <a href="#" class="action-link hide-on-mobile">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Showrooms</span>
+                    </a>
+                    <a href="#" class="action-link cart-link hide-on-mobile">
+                        <div class="cart-icon-wrapper">
+                            <i class="fas fa-shopping-cart"></i>
+                            <span class="cart-badge">0</span>
+                        </div>
+                        <span>Cart</span>
+                    </a>
+                    <a href="#" class="action-link hide-on-mobile">
+                        <span>Login/Register</span>
+                    </a>
+                    <a href="#" class="action-link mobile-store-lang">
+                        <i class="fas fa-store"></i>
+                        <span class="hide-on-mobile">Nigeria</span>
+                        <i class="fas fa-caret-down dropdown-icon hide-on-mobile"></i>
+                    </a>
+                    <a href="#" class="action-link mobile-lang">
+                        <span>English</span>
+                        <i class="fas fa-caret-down dropdown-icon"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="bottom-nav-wrapper">
+            <div class="container relative-container">
+                <div class="bottom-nav">
+                    <div class="all-categories">
+                        <i class="fas fa-bars"></i>
+                        <span>All Categories</span>
+                    </div>
+                    
+                    <button class="nav-scroll-btn left-btn"><i class="fas fa-chevron-left"></i></button>
+                    
+                    <div class="nav-links-container">
+                        <ul class="nav-links">
+                            <li class="nav-dropdown-wrapper">
+                                <a href="#">Promotions</a>
+                                <div class="nav-dropdown">
+                                    <ul>
+                                        <li><a href="#">Promo ACs</a></li>
+                                        <li><a href="#">Cookers/Microwaves</a></li>
+                                        <li><a href="#">Refrigerator</a></li>
+                                        <li><a href="#">Washing Machines</a></li>
+                                        <li><a href="#">Refrigerators</a></li>
+                                        <li><a href="#">Promo TVs</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-dropdown-wrapper">
+                                <a href="#">Refrigerator</a>
+                                <div class="nav-dropdown">
+                                    <ul>
+                                        <li><a href="#">Side By Side</a></li>
+                                        <li><a href="#">French Door</a></li>
+                                        <li><a href="#">Bottom Freezer</a></li>
+                                        <li><a href="#">Top Freezer</a></li>
+                                        <li><a href="#">Single Door</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-dropdown-wrapper">
+                                <a href="#">Freezer</a>
+                                <div class="nav-dropdown">
+                                    <ul>
+                                        <li><a href="#">Standing Freezer</a></li>
+                                        <li><a href="#">Chest Freezer</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-dropdown-wrapper">
+                                <a href="#">Washing Machines</a>
+                                <div class="nav-dropdown">
+                                    <ul>
+                                        <li><a href="#">Top Loader</a></li>
+                                        <li><a href="#">Wash & Dry</a></li>
+                                        <li><a href="#">Front Loader</a></li>
+                                        <li><a href="#">Manual Twin Tub</a></li>
+                                        <li><a href="#">Dryers</a></li>
+                                        <li><a href="#">LG Styler Steam Closet</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-dropdown-wrapper">
+                                <a href="#">TVs</a>
+                                <div class="nav-dropdown">
+                                    <ul>
+                                        <li><a href="#">Smart TVs</a></li>
+                                        <li><a href="#">OLED TVs</a></li>
+                                        <li><a href="#">QLED TVs</a></li>
+                                        <li><a href="#">Accessories</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-dropdown-wrapper">
+                                <a href="#">Audio</a>
+                                <div class="nav-dropdown">
+                                    <ul>
+                                        <li><a href="#">Sound Bar</a></li>
+                                        <li><a href="#">Wireless Speaker</a></li>
+                                        <li><a href="#">Mini Hi-Fi System</a></li>
+                                        <li><a href="#">Home Theater System</a></li>
+                                        <li><a href="#">AV Receiver Systems</a></li>
+                                        <li><a href="#">DVD Player</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-dropdown-wrapper">
+                                <a href="#">ACs</a>
+                                <div class="nav-dropdown">
+                                    <ul>
+                                        <li><a href="#">Split Air Conditioner</a></li>
+                                        <li><a href="#">Floor Standing Air Conditioner</a></li>
+                                        <li><a href="#">Inverter Air Conditioner</a></li>
+                                        <li><a href="#">Portable Air Conditioner</a></li>
+                                        <li><a href="#">Air Purifiers & Dehumidifiers</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-dropdown-wrapper">
+                                <a href="#">Cookers/Microwave</a>
+                                <div class="nav-dropdown">
+                                    <ul>
+                                        <li><a href="#">Microwaves</a></li>
+                                        <li><a href="#">Gas Cookers</a></li>
+                                        <li><a href="#">Table Top</a></li>
+                                        <li><a href="#">Oven</a></li>
+                                        <li><a href="#">Extractor Hood</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-dropdown-wrapper">
+                                <a href="#">Small Appliances/Fans</a>
+                                <div class="nav-dropdown">
+                                    <ul>
+                                        <li><a href="#">Fan</a></li>
+                                        <li><a href="#">Air Fryer</a></li>
+                                        <li><a href="#">Ice Makers</a></li>
+                                        <li><a href="#">Small Kitchen Appliances</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-dropdown-wrapper">
+                                <a href="#">Power Solution</a>
+                                <div class="nav-dropdown">
+                                    <ul>
+                                        <li><a href="#">Inverters</a></li>
+                                        <li><a href="#">Batteries</a></li>
+                                        <li><a href="#">Generators</a></li>
+                                        <li><a href="#">Stabilizers</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-dropdown-wrapper">
+                                <a href="./furniture.html">Furniture</a>
+                                <div class="nav-dropdown">
+                                    <ul>
+                                        <li><a href="#">Sofas</a></li>
+                                        <li><a href="#">Dining Tables</a></li>
+                                        <li><a href="#">Beds</a></li>
+                                        <li><a href="#">Office Chairs</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-dropdown-wrapper">
+                                <a href="#">Others</a>
+                                <div class="nav-dropdown">
+                                    <ul>
+                                        <li><a href="#">Lighting</a></li>
+                                        <li><a href="#">Tools</a></li>
+                                        <li><a href="#">Smart Home</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <button class="nav-scroll-btn right-btn"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Sidebar Overlay -->
+    <div class="sidebar-overlay" id="sidebar-overlay"></div>
+
+    <!-- All Categories Sidebar -->
+    <div class="sidebar" id="categories-sidebar">
+        <div class="sidebar-header">
+            <h2>All Categories</h2>
+            <button class="close-sidebar-btn" id="close-sidebar"><i class="fas fa-times"></i></button>
+        </div>
+        <div class="sidebar-content">
+            <ul class="sidebar-menu">
+                <li class="sidebar-dropdown-item">
+                    <div class="sidebar-menu-header">
+                        <div class="menu-item-content">
+                            <div class="menu-icon"><i class="fas fa-tag" style="color: #d92128; font-size: 18px;"></i></div>
+                            <span>Promotions</span>
+                        </div>
+                        <i class="fas fa-chevron-down dropdown-icon toggle-sidebar-dropdown"></i>
+                    </div>
+                    <ul class="sidebar-submenu">
+                        <li><a href="#">Promo ACs</a></li>
+                        <li><a href="#">Cookers/Microwaves</a></li>
+                        <li><a href="#">Refrigerator</a></li>
+                        <li><a href="#">Washing Machines</a></li>
+                        <li><a href="#">Refrigerators</a></li>
+                        <li><a href="#">Promo TVs</a></li>
+                    </ul>
+                </li>
+                <li class="sidebar-dropdown-item">
+                    <div class="sidebar-menu-header">
+                        <div class="menu-item-content">
+                            <div class="menu-icon"><i class="fas fa-snowflake" style="color: #555; font-size: 18px;"></i></div>
+                            <span>Refrigerator</span>
+                        </div>
+                        <i class="fas fa-chevron-down dropdown-icon toggle-sidebar-dropdown"></i>
+                    </div>
+                    <ul class="sidebar-submenu">
+                        <li><a href="#">Side By Side</a></li>
+                        <li><a href="#">French Door</a></li>
+                        <li><a href="#">Bottom Freezer</a></li>
+                        <li><a href="#">Top Freezer</a></li>
+                        <li><a href="#">Single Door</a></li>
+                    </ul>
+                </li>
+                <li class="sidebar-dropdown-item">
+                    <div class="sidebar-menu-header">
+                        <div class="menu-item-content">
+                            <div class="menu-icon"><i class="fas fa-icicles" style="color: #555; font-size: 18px;"></i></div>
+                            <span>Freezer</span>
+                        </div>
+                        <i class="fas fa-chevron-down dropdown-icon toggle-sidebar-dropdown"></i>
+                    </div>
+                    <ul class="sidebar-submenu">
+                        <li><a href="#">Standing Freezer</a></li>
+                        <li><a href="#">Chest Freezer</a></li>
+                    </ul>
+                </li>
+                <li class="sidebar-dropdown-item">
+                    <div class="sidebar-menu-header">
+                        <div class="menu-item-content">
+                            <div class="menu-icon"><i class="fas fa-tshirt" style="color: #555; font-size: 18px;"></i></div>
+                            <span>Washing Machines</span>
+                        </div>
+                        <i class="fas fa-chevron-down dropdown-icon toggle-sidebar-dropdown"></i>
+                    </div>
+                    <ul class="sidebar-submenu">
+                        <li><a href="#">Top Loader</a></li>
+                        <li><a href="#">Wash & Dry</a></li>
+                        <li><a href="#">Front Loader</a></li>
+                        <li><a href="#">Manual Twin Tub</a></li>
+                        <li><a href="#">Dryers</a></li>
+                        <li><a href="#">LG Styler Steam Closet</a></li>
+                    </ul>
+                </li>
+                <li class="sidebar-dropdown-item">
+                    <div class="sidebar-menu-header">
+                        <div class="menu-item-content">
+                            <div class="menu-icon"><i class="fas fa-tv" style="color: #555; font-size: 18px;"></i></div>
+                            <span>TVs</span>
+                        </div>
+                        <i class="fas fa-chevron-down dropdown-icon toggle-sidebar-dropdown"></i>
+                    </div>
+                    <ul class="sidebar-submenu">
+                        <li><a href="#">Smart TVs</a></li>
+                        <li><a href="#">OLED TVs</a></li>
+                        <li><a href="#">QLED TVs</a></li>
+                        <li><a href="#">Accessories</a></li>
+                    </ul>
+                </li>
+                <li class="sidebar-dropdown-item">
+                    <div class="sidebar-menu-header">
+                        <div class="menu-item-content">
+                            <div class="menu-icon"><i class="fas fa-volume-up" style="color: #555; font-size: 18px;"></i></div>
+                            <span>Audio</span>
+                        </div>
+                        <i class="fas fa-chevron-down dropdown-icon toggle-sidebar-dropdown"></i>
+                    </div>
+                    <ul class="sidebar-submenu">
+                        <li><a href="#">Sound Bar</a></li>
+                        <li><a href="#">Wireless Speaker</a></li>
+                        <li><a href="#">Mini Hi-Fi System</a></li>
+                        <li><a href="#">Home Theater System</a></li>
+                        <li><a href="#">AV Receiver Systems</a></li>
+                        <li><a href="#">DVD Player</a></li>
+                    </ul>
+                </li>
+                <li class="sidebar-dropdown-item">
+                    <div class="sidebar-menu-header">
+                        <div class="menu-item-content">
+                            <div class="menu-icon"><i class="fas fa-wind" style="color: #555; font-size: 18px;"></i></div>
+                            <span>ACs</span>
+                        </div>
+                        <i class="fas fa-chevron-down dropdown-icon toggle-sidebar-dropdown"></i>
+                    </div>
+                    <ul class="sidebar-submenu">
+                        <li><a href="#">Split Air Conditioner</a></li>
+                        <li><a href="#">Floor Standing Air Conditioner</a></li>
+                        <li><a href="#">Inverter Air Conditioner</a></li>
+                        <li><a href="#">Portable Air Conditioner</a></li>
+                        <li><a href="#">Air Purifiers & Dehumidifiers</a></li>
+                    </ul>
+                </li>
+                <li class="sidebar-dropdown-item">
+                    <div class="sidebar-menu-header">
+                        <div class="menu-item-content">
+                            <div class="menu-icon"><i class="fas fa-hamburger" style="color: #555; font-size: 18px;"></i></div>
+                            <span>Cookers/Microwave</span>
+                        </div>
+                        <i class="fas fa-chevron-down dropdown-icon toggle-sidebar-dropdown"></i>
+                    </div>
+                    <ul class="sidebar-submenu">
+                        <li><a href="#">Microwaves</a></li>
+                        <li><a href="#">Gas Cookers</a></li>
+                        <li><a href="#">Table Top</a></li>
+                        <li><a href="#">Oven</a></li>
+                        <li><a href="#">Extractor Hood</a></li>
+                    </ul>
+                </li>
+                <li class="sidebar-dropdown-item">
+                    <div class="sidebar-menu-header">
+                        <div class="menu-item-content">
+                            <div class="menu-icon"><i class="fas fa-fan" style="color: #555; font-size: 18px;"></i></div>
+                            <span>Small Appliances/Fans</span>
+                        </div>
+                        <i class="fas fa-chevron-down dropdown-icon toggle-sidebar-dropdown"></i>
+                    </div>
+                    <ul class="sidebar-submenu">
+                        <li><a href="#">Fan</a></li>
+                        <li><a href="#">Air Fryer</a></li>
+                        <li><a href="#">Ice Makers</a></li>
+                        <li><a href="#">Small Kitchen Appliances</a></li>
+                    </ul>
+                </li>
+                <li class="sidebar-dropdown-item">
+                    <div class="sidebar-menu-header">
+                        <div class="menu-item-content">
+                            <div class="menu-icon"><i class="fas fa-bolt" style="color: #555; font-size: 18px;"></i></div>
+                            <span>Power Solution</span>
+                        </div>
+                        <i class="fas fa-chevron-down dropdown-icon toggle-sidebar-dropdown"></i>
+                    </div>
+                    <ul class="sidebar-submenu">
+                        <li><a href="#">Inverters</a></li>
+                        <li><a href="#">Batteries</a></li>
+                        <li><a href="#">Generators</a></li>
+                        <li><a href="#">Stabilizers</a></li>
+                    </ul>
+                </li>
+                <li class="sidebar-dropdown-item">
+                    <div class="sidebar-menu-header">
+                        <div class="menu-item-content">
+                            <div class="menu-icon"><i class="fas fa-couch" style="color: #555; font-size: 18px;"></i></div>
+                            <a href="/furniture.html"><span>Furniture</span></a>
+                        </div>
+                        <i class="fas fa-chevron-down dropdown-icon toggle-sidebar-dropdown"></i>
+                    </div>
+                    <ul class="sidebar-submenu">
+                        <li><a href="#">Sofas</a></li>
+                        <li><a href="#">Dining Tables</a></li>
+                        <li><a href="#">Beds</a></li>
+                        <li><a href="#">Office Chairs</a></li>
+                    </ul>
+                </li>
+                <li class="sidebar-dropdown-item">
+                    <div class="sidebar-menu-header">
+                        <div class="menu-item-content">
+                            <div class="menu-icon"><i class="fas fa-ellipsis-h" style="color: #555; font-size: 18px;"></i></div>
+                            <span>Others</span>
+                        </div>
+                        <i class="fas fa-chevron-down dropdown-icon toggle-sidebar-dropdown"></i>
+                    </div>
+                    <ul class="sidebar-submenu">
+                        <li><a href="#">Lighting</a></li>
+                        <li><a href="#">Tools</a></li>
+                        <li><a href="#">Smart Home</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Hero Section with Carousel -->
+    <section class="hero-section container">
+        <div class="carousel-container" id="hero-carousel">
+            <!-- Slide 1 -->
+            <div class="carousel-slide active">
+                <img src="img/bg1.webp" alt="Banner 1" style="object-position: center;">
+            </div>
+            <!-- Slide 2 -->
+            <div class="carousel-slide">
+                <img src="img/bg2.webp" alt="Banner 2" style="object-position: center;">
+            </div>
+            <!-- Slide 3 -->
+            <div class="carousel-slide">
+                <img src="img/bg3.webp" alt="Banner 3" style="object-position: center;">
+            </div>
+            <!-- Slide 4 -->
+            <div class="carousel-slide">
+                <img src="img/bg4.webp" alt="Banner 4" style="object-position: center;">
+            </div>
+            <!-- Slide 5 -->
+            <div class="carousel-slide">
+                <img src="img/bg5.webp" alt="Banner 5" style="object-position: center;">
+            </div>
+            <!-- Slide 6 -->
+            <div class="carousel-slide">
+                <img src="img/bg6.webp" alt="Banner 6" style="object-position: center;">
+            </div>
+
+            <button class="carousel-nav prev"><i class="fas fa-chevron-left"></i></button>
+            <button class="carousel-nav next"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </section>
+
+    <main class="container">
+        <!-- Shop by Brand -->
+        <section class="shop-by-brand-section">
+            <div class="section-header">
+                <h2 class="section-title">Shop by Brand</h2>
+            </div>
+            <div class="brands-grid">
+                <!-- LG -->
+                <a href="#" class="custom-brand-card lg">
+                    <div class="logo">
+                        <span class="circle">L<span>G</span></span>
+                        <span style="letter-spacing: -2px;">LG</span>
+                    </div>
+                    <span class="brand-name-small">LG</span>
+                </a>
+                
+                <!-- Hisense -->
+                <a href="#" class="custom-brand-card hisense">
+                    <div class="logo">Hisense</div>
+                    <span class="brand-name-small">Hisense</span>
+                </a>
+                
+                <!-- MAXI -->
+                <a href="#" class="custom-brand-card maxi">
+                    <div class="logo">MAXI <i class="fas fa-home"></i></div>
+                    <span class="brand-name-small">Maxi</span>
+                </a>
+                
+                <!-- HUAWEI -->
+                <a href="#" class="custom-brand-card huawei">
+                    <div class="logo">
+                        <i class="fab fa-neos" style="color:#d9232e; font-size: 32px;"></i> <!-- Placeholder for lotus -->
+                        <span>HUAWEI</span>
+                    </div>
+                    <span class="brand-name-small" style="color: #555;">Huawei</span>
+                </a>
+                
+                <!-- Growatt -->
+                <a href="#" class="custom-brand-card growatt">
+                    <div class="logo">
+                        <span style="color: #6ba328; font-size: 40px; font-weight: 900;">G</span>rowatt
+                    </div>
+                    <span class="brand-name-small" style="color: #555;">Growatt</span>
+                </a>
+
+                <!-- Jinko -->
+                <a href="#" class="custom-brand-card jinko">
+                    <div class="logo">
+                        <div style="color: #6ba328; font-style: italic; font-weight: 800; font-size: 14px; align-self: flex-end; margin-right: 15px;">Solar</div>
+                        <span style="color: #007934; font-style: italic; font-weight: 900; font-size: 36px; letter-spacing: -1px;">JinkO</span>
+                        <div style="font-size: 10px; color: #555; margin-top: 2px;">
+                            <span style="color:#6ba328;">Building </span><span style="color:#007934; font-weight: bold; font-style: italic;">Your Trust </span><span style="color:#6ba328;">in Solar</span>
+                        </div>
+                    </div>
+                    <span class="brand-name-small" style="color: #555;">Jinko</span>
+                </a>
+
+                <!-- Deye -->
+                <a href="#" class="custom-brand-card deye">
+                    <div class="logo">
+                        <span style="color: #e30613; font-size: 16px; margin-right: 2px; transform: translateY(-15px);">■</span>
+                        Deye
+                    </div>
+                    <span class="brand-name-small" style="color: #555;">Deye</span>
+                </a>
+
+                <!-- Actiu -->
+                <a href="#" class="custom-brand-card actiu">
+                    <div class="logo">
+                        <span style="font-size: 36px; font-weight: 300;">Å</span>
+                        <span style="letter-spacing: 4px; font-weight: 300; font-size: 14px; margin-top: 4px;">ACTIU</span>
+                    </div>
+                    <span class="brand-name-small">Actiu</span>
+                </a>
+            </div>
+        </section>
+
+        <!-- Promo Banner -->
+        <section class="promo-banner-section">
+            <div class="promo-banner-card">
+                <div class="promo-banner-image">
+                    <!-- We will use a placeholder or pure CSS for the image if it's missing, but let's use the digitalocean url for now just in case it works for the user -->
+                    <div class="promo-image-css">
+                        <div class="promo-red-bg">
+                            <div class="promo-text-top">
+                                <span class="lg-logo-small">L<span>G</span></span>
+                                <h2>BUY 1 LG TV QNED<br>100" QNED86A6 4K SMART</h2>
+                            </div>
+                            <div class="promo-circles">
+                                <div class="circle-outer"></div>
+                                <div class="circle-inner"></div>
+                            </div>
+                            <div class="promo-product-mockup">
+                                <div class="tv-screen">
+                                    <div class="tv-content">
+                                        <span class="tv-brand">LG QNED <span>evo</span> <b>AI</b><br>2025</span>
+                                    </div>
+                                </div>
+                                <div class="soundbar"></div>
+                                <div class="free-badge">FREE</div>
+                            </div>
+                            <div class="promo-text-bottom">
+                                &amp; GET 1 LG SOUNDBAR WITH<br>SUBWOOFER 400W 3.1.3CH
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="promo-banner-content">
+                    <h3 class="promo-title">LG TV QNED 100 Inch QNED86A6 4K Smart TV AI Magic Remote webOS24</h3>
+                    <div class="promo-price">NGN 4,928,000</div>
+                    <div class="promo-desc">undefined...</div>
+                    <a href="#" class="promo-btn">View Product Details</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Categories Section -->
+        <section class="categories-section">
+            <div class="section-header">
+                <h2 class="section-title">Categories</h2>
+            </div>
+            <div class="categories-grid">
+                <a href="#" class="category-card" style="background-image: url('img/bg1.webp');">
+                    <div class="category-overlay">Refrigerator</div>
+                </a>
+                <a href="#" class="category-card" style="background-image: url('img/bg2.webp');">
+                    <div class="category-overlay">Washing Machines</div>
+                </a>
+                <a href="#" class="category-card" style="background-image: url('img/bg3.webp');">
+                    <div class="category-overlay">TVs</div>
+                </a>
+                <a href="#" class="category-card" style="background-image: url('img/bg4.webp');">
+                    <div class="category-overlay">Audio</div>
+                </a>
+                <a href="#" class="category-card" style="background-image: url('img/bg5.webp');">
+                    <div class="category-overlay">ACs</div>
+                </a>
+                <a href="#" class="category-card" style="background-image: url('img/bg6.webp');">
+                    <div class="category-overlay">Small Appliances/Fans</div>
+                </a>
+                <a href="#" class="category-card" style="background-image: url('https://images.pexels.com/photos/159397/solar-panel-array-power-sun-electricity-159397.jpeg?auto=compress&cs=tinysrgb&w=600');">
+                    <div class="category-overlay">Power Solution</div>
+                </a>
+                <a href="#" class="category-card" style="background-image: url('https://images.pexels.com/photos/1866149/pexels-photo-1866149.jpeg?auto=compress&cs=tinysrgb&w=600');">
+                    <div class="category-overlay">Furnitures</div>
+                </a>
+            </div>
+        </section>
+
+        <!-- Promotions -->
+        <section class="promotions-custom-section">
+            <div class="section-header">
+                <h2 class="section-title">Promotions</h2>
+            </div>
+            <div class="promotions-custom-grid">
+                <!-- Promo Card 1 -->
+                <div class="promo-custom-card">
+                    <div class="promo-custom-banner">
+                        <div class="promo-banner-bg">
+                            <div class="promo-bg-ring"></div>
+                        </div>
+                        <div class="promo-top-logos">
+                            <span style="color:white;font-weight:bold;font-size:12px;"><i class="fas fa-circle"></i> LG</span>
+                            <span class="fouani-logo-sm">FOUANI<br>GROUP</span>
+                        </div>
+                        <div class="promo-text-center">
+                            <h3>BUY 1 LG TV</h3>
+                            <h4>OLED55" C4 4K SMART</h4>
+                            <p>AI MAGIC REMOTE DOLBY<br>VISION WEBOS24 2024</p>
+                        </div>
+                        <div class="promo-get-left">
+                            & GET 1 LG XBOOM<br>PARTY SPEAKER 300W
+                        </div>
+                        <div class="promo-stage-area">
+                            <div class="promo-stage"></div>
+                        </div>
+                        <div class="promo-badge-right">
+                            <div class="free-badge-img">
+                                <div style="background:#000;border-radius:50%;width:40px;height:40px;display:flex;align-items:center;justify-content:center;color:#fff;font-size:8px;font-weight:bold;margin-top:10px;">FREE</div>
+                            </div>
+                        </div>
+                        <div class="promo-nav-left"><i class="fas fa-chevron-left"></i></div>
+                    </div>
+                    <div class="promo-custom-details">
+                        <h3 class="promo-title">LGTV55C46LA</h3>
+                        <p class="promo-desc">Buy LG TV OLED 55 Inch C4 4K Smart And Get Free LG XBOOM Party Speaker 300W (RNC5)</p>
+                        <button class="view-product-btn">View Product</button>
+                    </div>
+                </div>
+
+                <!-- Promo Card 2 -->
+                <div class="promo-custom-card">
+                    <div class="promo-custom-banner">
+                        <div class="promo-banner-bg">
+                            <div class="promo-bg-ring"></div>
+                        </div>
+                        <div class="promo-top-logos">
+                            <span style="color:white;font-weight:bold;font-size:12px;"><i class="fas fa-circle"></i> LG</span>
+                            <span class="fouani-logo-sm">FOUANI<br>GROUP</span>
+                        </div>
+                        <div class="promo-text-center">
+                            <h3>BUY 1 LG FLOOR</h3>
+                            <h4>STANDING AC 3.0 HP</h4>
+                            <p style="font-size:12px; margin-top:2px; font-weight:bold;">INVERTER</p>
+                        </div>
+                        <div class="promo-get-left">
+                            & GET FREE<br>INSTALLATION
+                        </div>
+                        <div class="promo-stage-area">
+                            <div class="promo-stage"></div>
+                        </div>
+                        <div class="promo-badge-right black-badge">
+                            <i class="fas fa-tools"></i><br>FREE<br>INSTALLATION
+                        </div>
+                    </div>
+                    <div class="promo-custom-details">
+                        <h3 class="promo-title">LGFS3HPINVERTER</h3>
+                        <p class="promo-desc">Buy LG Floor Standing AC 3.0 HP Inverter And Get Installation Service for Free</p>
+                        <button class="view-product-btn">View Product</button>
+                    </div>
+                </div>
+
+                <!-- Promo Card 3 -->
+                <div class="promo-custom-card">
+                    <div class="promo-custom-banner">
+                        <div class="promo-banner-bg">
+                            <div class="promo-bg-ring"></div>
+                        </div>
+                        <div class="promo-top-logos">
+                            <span style="color:white;font-weight:bold;font-size:12px;"><i class="fas fa-circle"></i> LG</span>
+                            <span class="fouani-logo-sm">FOUANI<br>GROUP</span>
+                        </div>
+                        <div class="promo-text-center">
+                            <h3>BUY 1 LG FLOOR</h3>
+                            <h4>STANDING AC 2.0 HP DUAL</h4>
+                            <p>INVERTER, SMART THINQ,<br>SMART CARE</p>
+                        </div>
+                        <div class="promo-get-left">
+                            & GET FREE<br>INSTALLATION
+                        </div>
+                        <div class="promo-stage-area">
+                            <div class="promo-stage"></div>
+                        </div>
+                        <div class="promo-badge-right black-badge">
+                            <i class="fas fa-tools"></i><br>FREE<br>INSTALLATION
+                        </div>
+                        <div class="promo-nav-right"><i class="fas fa-chevron-right"></i></div>
+                    </div>
+                    <div class="promo-custom-details">
+                        <h3 class="promo-title">LGFS2HPN2XA0</h3>
+                        <p class="promo-desc">Buy 1 LG Floor Standing AC 2.0 HP Dual Inverter Smart ThinQ, Smart Care And Get Installation Service For Free</p>
+                        <button class="view-product-btn">View Product</button>
+                    </div>
+                </div>
+            </div>
+        <!-- Featured Products -->
+        <section class="featured-products-section">
+            <div class="section-header">
+                <h2 class="section-title">Featured Products</h2>
+            </div>
+            <div class="featured-products-carousel-wrapper">
+                <div class="fp-nav-btn fp-nav-left" id="fpNavLeft"><i class="fas fa-chevron-left"></i></div>
+                <div class="featured-products-grid" id="featuredGrid">
+                    <!-- Item 1: Hisense Microwave -->
+                    <div class="featured-card">
+                        <div class="featured-img-box teal-bg">
+                            <img src="./img/prod_hisense_microwave.png" alt="Hisense Microwave">
+                            <div class="fp-brand-logo">Hisense</div>
+                        </div>
+                        <h4 class="featured-title">Hisense Microwave 34L 1000W...</h4>
+                        <div class="featured-price">NGN 186,000</div>
+                        <button class="featured-btn add-to-cart">Add to Cart</button>
+                    </div>
+                    <!-- Item 2: Hisense Split AC Inverter (OUT OF STOCK) -->
+                    <div class="featured-card">
+                        <div class="featured-img-box teal-bg">
+                            <div class="fp-oos-ribbon"><span>OUT OF STOCK</span></div>
+                            <img src="./img/prod_hisense_ac.png" alt="Hisense Split AC">
+                            <div class="fp-brand-logo">Hisense</div>
+                        </div>
+                        <h4 class="featured-title">Hisense Split AC 1.5 HP Inverter ENERGY PRO X</h4>
+                        <div class="featured-price">NGN 549,000</div>
+                        <button class="featured-btn sold-out">Sold Out</button>
+                    </div>
+                    <!-- Item 3: Hisense Floor AC (OUT OF STOCK) -->
+                    <div class="featured-card">
+                        <div class="featured-img-box teal-bg">
+                            <div class="fp-oos-ribbon"><span>OUT OF STOCK</span></div>
+                            <img src="./img/prod_hisense_floor_ac.png" alt="Hisense Floor AC">
+                            <div class="fp-brand-logo">Hisense</div>
+                        </div>
+                        <h4 class="featured-title">Hisense Floor Standing Tower AC 3.0 HP...</h4>
+                        <div class="featured-price">NGN 1,176,000</div>
+                        <button class="featured-btn sold-out">Sold Out</button>
+                    </div>
+                    <!-- Item 4: LG Speaker -->
+                    <div class="featured-card">
+                        <div class="featured-img-box dark-red-bg">
+                            <img src="./img/prod_lg_speaker.png" alt="LG XBOOM Speaker">
+                            <div class="fp-brand-logo fp-brand-lg">LG</div>
+                        </div>
+                        <h4 class="featured-title">LG Portable Bluetooth Speaker 50W XBOOM...</h4>
+                        <div class="featured-price">NGN 299,000</div>
+                        <button class="featured-btn add-to-cart">Add to Cart</button>
+                    </div>
+                    <!-- Item 5: LG Washer -->
+                    <div class="featured-card">
+                        <div class="featured-img-box dark-red-bg">
+                            <img src="./img/prod_hisense_washer.png" alt="LG Front Load Washer">
+                            <div class="fp-brand-logo fp-brand-lg">LG</div>
+                        </div>
+                        <h4 class="featured-title">LG Front Load Wash & Dry 20/10KG...</h4>
+                        <div class="featured-price">NGN 1,316,000</div>
+                        <button class="featured-btn add-to-cart">Add to Cart</button>
+                    </div>
+                    <!-- Item 6: Hisense Normal AC (Sold Out) -->
+                    <div class="featured-card">
+                        <div class="featured-img-box teal-bg">
+                            <img src="./img/prod_hisense_ac.png" alt="Hisense Normal AC">
+                            <div class="fp-brand-logo">Hisense</div>
+                        </div>
+                        <h4 class="featured-title">Hisense Split AC 1.5 HP Normal (HB35XU0AG)</h4>
+                        <div class="featured-price">NGN 344,000</div>
+                        <button class="featured-btn sold-out">Sold Out</button>
+                    </div>
+                    <!-- Item 7: LG Microwave -->
+                    <div class="featured-card">
+                        <div class="featured-img-box dark-red-bg">
+                            <img src="./img/prod_hisense_microwave.png" alt="LG Microwave">
+                            <div class="fp-brand-logo fp-brand-lg">LG</div>
+                        </div>
+                        <h4 class="featured-title">LG Microwave 42L 1200W (MH8265CIS)</h4>
+                        <div class="featured-price">NGN 239,000</div>
+                        <button class="featured-btn add-to-cart">Add to Cart</button>
+                    </div>
+                    <!-- Item 8: Hisense Party Thunder -->
+                    <div class="featured-card">
+                        <div class="featured-img-box teal-bg">
+                            <img src="./img/prod_lg_speaker.png" alt="Hisense Party Thunder">
+                            <div class="fp-brand-logo">Hisense</div>
+                        </div>
+                        <h4 class="featured-title">Hisense Party Thunder | Ultimate Party...</h4>
+                        <div class="featured-price">NGN 399,000</div>
+                        <button class="featured-btn add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="fp-nav-btn fp-nav-right" id="fpNavRight"><i class="fas fa-chevron-right"></i></div>
+            </div>
+
+            <!-- Hisense Large Banner -->
+            <div class="hisense-huge-banner">
+                <div class="hisense-banner-left">
+                    <div class="hisense-banner-logos">
+                        <span class="hisense-text-logo">Hisense</span>
+                        <div class="divider"></div>
+                        <i class="fas fa-trophy fifa-trophy"></i>
+                        <span class="fifa-text">FIFA</span>
+                    </div>
+                    <div class="official-sponsor">OFFICIAL SPONSOR</div>
+                    <div class="ux-huge-text">UX</div>
+                    <div class="uled-text"><span class="rainbow-text">ULED RGB-MiniLED</span></div>
+                    <div class="revolution-text">RGB-MiniLED, vision revolution</div>
+                    <div class="unseen-text">-Colour unleashed, see the unseen</div>
+                    <div class="bottom-features">
+                        <span><i class="fas fa-tv"></i> ULED</span>
+                        <span><i class="fas fa-braille"></i> RGB MiniLED</span>
+                        <span><i class="fas fa-running"></i> AI Sports Mode</span>
+                        <span><i class="fas fa-video"></i> Dolby VISION</span>
+                        <span><i class="fas fa-microchip"></i> 4K AI Upscaler</span>
+                    </div>
+                </div>
+                <div class="hisense-banner-right">
+                    <div class="tv-frame">
+                        <div class="tv-screen">
+                            <div class="tv-stadium-bg"></div>
+                            <div class="tv-content">
+                                <span class="hisense-text-logo-small">Hisense</span>
+                                <div class="giant-100">100"</div>
+                                <div class="global-no1">
+                                    GLOBAL<br><strong>NO.1</strong><br>in 100+ TV*
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Kitchen Small Appliances -->
+            <section class="ka-section">
+                <div class="section-header">
+                    <h2 class="section-title">Kitchen Small Appliances</h2>
+                </div>
+                <div class="ka-carousel-wrapper">
+                    <div class="ka-nav-btn ka-nav-left" id="kaNavLeft"><i class="fas fa-chevron-left"></i></div>
+                    <div class="ka-grid" id="kaGrid">
+                        <!-- Item 1 -->
+                        <div class="ka-card">
+                            <div class="ka-img-box blue-bg">
+                                <img src="./img/ka_nutriboom.png" alt="Maxi Nutriboom Blender">
+                                <div class="ka-brand">MAXI <span class="ka-arrow">&#9654;</span></div>
+                            </div>
+                            <h4 class="ka-title">Maxi Nutriboom Blender 900W...</h4>
+                            <div class="ka-price">NGN 54,000</div>
+                            <button class="ka-btn ka-add">Add to Cart</button>
+                        </div>
+                        <!-- Item 2 -->
+                        <div class="ka-card">
+                            <div class="ka-img-box teal-bg">
+                                <img src="./img/ka_air_fryer.png" alt="Hisense Air Fryer">
+                                <div class="ka-brand ka-hisense">Hisense</div>
+                            </div>
+                            <h4 class="ka-title">Hisense Air Fryer 6.7L 1350W (H06AFB52S3)</h4>
+                            <div class="ka-price">NGN 79,000</div>
+                            <button class="ka-btn ka-sold">Sold Out</button>
+                        </div>
+                        <!-- Item 3 -->
+                        <div class="ka-card">
+                            <div class="ka-img-box blue-bg">
+                                <img src="./img/ka_grill.png" alt="Maxi Contact Grill">
+                                <div class="ka-brand">MAXI <span class="ka-arrow">&#9654;</span></div>
+                            </div>
+                            <h4 class="ka-title">Maxi Contact Grill 2000W Black (MC-...</h4>
+                            <div class="ka-price">NGN 49,900</div>
+                            <button class="ka-btn ka-add">Add to Cart</button>
+                        </div>
+                        <!-- Item 4 -->
+                        <div class="ka-card">
+                            <div class="ka-img-box blue-bg">
+                                <img src="./img/ka_mixer.png" alt="Maxi Mixer">
+                                <div class="ka-brand">MAXI <span class="ka-arrow">&#9654;</span></div>
+                            </div>
+                            <h4 class="ka-title">Maxi Mixer 300W 1.8L (JC11)</h4>
+                            <div class="ka-price">NGN 28,000</div>
+                            <button class="ka-btn ka-add">Add to Cart</button>
+                        </div>
+                        <!-- Item 5 -->
+                        <div class="ka-card">
+                            <div class="ka-img-box blue-bg">
+                                <img src="./img/ka_stand_mixer.png" alt="Maxi Stand Mixer">
+                                <div class="ka-brand">MAXI <span class="ka-arrow">&#9654;</span></div>
+                            </div>
+                            <h4 class="ka-title">Maxi Standing Kitchen Mixer with Bowl 400W...</h4>
+                            <div class="ka-price">NGN 46,000</div>
+                            <button class="ka-btn ka-add">Add to Cart</button>
+                        </div>
+                        <!-- Item 6 -->
+                        <div class="ka-card">
+                            <div class="ka-img-box blue-bg">
+                                <img src="./img/ka_jug_blender.png" alt="Maxi Blender">
+                                <div class="ka-brand">MAXI <span class="ka-arrow">&#9654;</span></div>
+                            </div>
+                            <h4 class="ka-title">Maxi Blender 1500W 1.5L Silver (BL1501)</h4>
+                            <div class="ka-price">NGN 119,000</div>
+                            <button class="ka-btn ka-add">Add to Cart</button>
+                        </div>
+                        <!-- Item 7 -->
+                        <div class="ka-card">
+                            <div class="ka-img-box blue-bg">
+                                <img src="./img/ka_toaster.png" alt="Maxi Toaster">
+                                <div class="ka-brand">MAXI <span class="ka-arrow">&#9654;</span></div>
+                            </div>
+                            <h4 class="ka-title">Maxi Toaster 2 Slices (RP2L22W)</h4>
+                            <div class="ka-price">NGN 27,500</div>
+                            <button class="ka-btn ka-add">Add to Cart</button>
+                        </div>
+                        <!-- Item 8 -->
+                        <div class="ka-card">
+                            <div class="ka-img-box blue-bg">
+                                <img src="./img/ka_kettle.png" alt="Maxi Kettle">
+                                <div class="ka-brand">MAXI <span class="ka-arrow">&#9654;</span></div>
+                            </div>
+                            <h4 class="ka-title">Maxi Kettle 1.7L Silver 2000W (17S30A2)</h4>
+                            <div class="ka-price">NGN 26,700</div>
+                            <button class="ka-btn ka-add">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="ka-nav-btn ka-nav-right" id="kaNavRight"><i class="fas fa-chevron-right"></i></div>
+                </div>
+            </section>
+
+            
+        </section>
+    </main>
+
+    <!-- Trust Bar + Contact -->
+    <section class="trust-bar-section">
+        <div class="trust-bar-container">
+            <!-- Three Features -->
+            <div class="trust-features">
+                <div class="trust-feature">
+                    <div class="trust-icon">
+                        <i class="fas fa-truck"></i>
+                    </div>
+                    <div class="trust-text">
+                        <span class="trust-title">FAST DELIVERY</span>
+                        <span class="trust-sub">TO MORE THAN 11 STATES</span>
+                    </div>
+                </div>
+                <div class="trust-divider"></div>
+                <div class="trust-feature">
+                    <div class="trust-icon">
+                        <i class="fas fa-tag"></i>
+                    </div>
+                    <div class="trust-text">
+                        <span class="trust-title">FREE SHIPPING</span>
+                        <span class="trust-sub">FOR ORDERS ABOVE 250,000 ₦ (T&amp;C APPLY)</span>
+                    </div>
+                </div>
+                <div class="trust-divider"></div>
+                <div class="trust-feature">
+                    <div class="trust-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <div class="trust-text">
+                        <span class="trust-title">ITEM WARRANTY</span>
+                        <span class="trust-sub">NO WORRIES WHATSOEVER.</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- WhatsApp Contact -->
+            <div class="trust-contact">
+                <a href="https://wa.me/2348000000000" class="trust-whatsapp" target="_blank" rel="noopener">
+                    <i class="fab fa-whatsapp"></i>
+                    <span>CONTACT US HERE</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col brand-col">
+                    <div class="footer-logo">
+                        <span class="logo-colors"><span class="logo-c">C</span>OLORS</span>
+                        <div class="logo-by">BY FOUANI</div>
+                    </div>
+                    <p>Now you can Buy Premium Home Appliances with Warranty, we deliver quality, durability, and trusted performance, Free Shipping Available.</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Categories</h3>
+                    <ul>
+                        <li><a href="#">Promotions</a></li>
+                        <li><a href="#">Refrigerator</a></li>
+                        <li><a href="#">Freezer</a></li>
+                        <li><a href="#">Washing Machines</a></li>
+                        <li><a href="#">TVs</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Top Brands</h3>
+                    <ul>
+                        <li><a href="#">LG</a></li>
+                        <li><a href="#">Huawei</a></li>
+                        <li><a href="#">Pylontech</a></li>
+                        <li><a href="#">ZN-SHINE Solar</a></li>
+                        <li><a href="#">Jinko</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col contact-col">
+                    <h3>Contact Us</h3>
+                    <ul>
+                        <li><a href="mailto:online@fouani.com"><i class="fas fa-envelope"></i> online@fouani.com</a></li>
+                        <li><a href="tel:+2342018884444"><i class="fas fa-phone-alt"></i> +234 201 888 4444</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom-line"></div>
+            
+            <div class="footer-bottom">
+                <div class="footer-copy">&copy; 2026 fouani. All rights reserved</div>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms & Conditions</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile Bottom Navigation -->
+    <div class="mobile-bottom-nav">
+        <a href="#" class="mobile-nav-item active">
+            <i class="fas fa-home"></i>
+        </a>
+        <a href="#" class="mobile-nav-item">
+            <i class="fas fa-map-marker-alt"></i>
+        </a>
+        <a href="#" class="mobile-nav-item">
+            <i class="far fa-user"></i>
+        </a>
+        <a href="#" class="mobile-nav-item cart-item">
+            <i class="fas fa-shopping-cart"></i>
+            <span class="mobile-cart-badge">0</span>
+        </a>
+        <a href="#" class="mobile-nav-item">
+            <i class="far fa-bell"></i>
+        </a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
