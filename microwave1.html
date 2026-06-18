@@ -31,9 +31,8 @@
 <body class="bg-gray-50 text-gray-800 min-h-screen flex flex-col pb-20 md:pb-6">
 
     <header class="bg-white border-b border-gray-100 sticky top-0 z-50 px-4 py-3 md:px-8">
-        <div class="max-w-7xl mx-auto flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
-
-            <div class="flex items-center justify-between w-full md:w-auto">
+        <div class="max-w-7xl mx-auto">
+            <div class="flex items-center justify-between gap-3">
                 <div class="flex items-center gap-4">
                     <button class="text-gray-700 hover:text-black focus:outline-none">
                         <i class="fa-solid fa-bars text-xl"></i>
@@ -44,6 +43,14 @@
                         </span>
                         <span class="text-[9px] uppercase tracking-[0.2em] text-gray-400 font-medium -mt-1">By Fouani</span>
                     </div>
+                </div>
+
+                <div class="hidden md:block flex-1 max-w-md relative">
+                    <span class="absolute inset-y-0 left-0 flex items-center pl-4 pointer-events-none text-gray-400">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </span>
+                    <input type="text" placeholder="Search for products" value=""
+                           class="w-full bg-[#F3F4F6] text-sm text-gray-600 pl-11 pr-4 py-2.5 rounded-full focus:outline-none focus:ring-1 focus:ring-gray-300">
                 </div>
 
                 <div class="flex items-center gap-6">
@@ -63,14 +70,13 @@
                 </div>
             </div>
 
-            <div class="w-full md:max-w-xl md:mx-auto relative">
+            <div class="md:hidden mt-3 relative">
                 <span class="absolute inset-y-0 left-0 flex items-center pl-4 pointer-events-none text-gray-400">
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </span>
                 <input type="text" placeholder="Search for products" value=""
                        class="w-full bg-[#F3F4F6] text-sm text-gray-600 pl-11 pr-4 py-2.5 rounded-full focus:outline-none focus:ring-1 focus:ring-gray-300">
             </div>
-
         </div>
     </header>
 
